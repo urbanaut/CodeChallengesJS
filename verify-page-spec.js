@@ -12,7 +12,7 @@ describe('Verify Correct Web Page Load', function() {
             
             var pageTitle = browser.getTitle();
             expect(pageTitle).toContain(validationText);
-            console.log('Verification text did not match page title.');
+            console.log('Page validation text found.');
         });
     });       
 });

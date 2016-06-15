@@ -11,9 +11,8 @@ describe('Verify Correct Web Page Load', function() {
             browser.waitForAngular();
             
             var pageTitle = browser.getTitle();
-            console.log('Page title: ' + pageTitle);
             expect(pageTitle).toContain(validationText);
-                
+            console.log('Verification text did not match page title.');
         });
     });       
 });

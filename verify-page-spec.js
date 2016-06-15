@@ -1,8 +1,8 @@
 /*
- Start the WebDriver Server using the command: webdriver-manager start --standalone
+ Start the WebDriver Server using the command, "webdriver-manager start --standalone""
  from within the project folder.
- 
- Kick off test using the command: protractor conf.js
+
+ Kick off test using the command, "protractor conf.js""
 */
 
 
